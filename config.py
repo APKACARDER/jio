@@ -12,7 +12,7 @@ from logging.handlers import RotatingFileHandler
 
 #force user to join your backup channel leave 0 if you don't need.
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001996096940"))
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002260861967"))
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002165145116"))
 
 if FORCE_SUB_CHANNEL > FORCE_SUB_CHANNEL2:
     temp = FORCE_SUB_CHANNEL2 
@@ -27,15 +27,15 @@ USER_REPLY_TEXT = os.environ.get("USER_REPLY_TEXT", "❌ 𝙿𝚕𝚎𝚊𝚜�
 #your bot token here from https://telegram.me/BotFather
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "") 
 #your api id from https://my.telegram.org/apps
-APP_ID = int(os.environ.get("APP_ID", "20071888"))
+APP_ID = int(os.environ.get("APP_ID", "21346742"))
 #your api hash from https://my.telegram.org/apps
-API_HASH = os.environ.get("API_HASH", "1c4cb9d94b23282abd9ae2a87a521b53")
+API_HASH = os.environ.get("API_HASH", "571dd0607522052217b398aa3cd860d8")
 #your channel_id from https://t.me/MissRose_bot by forwarding dummy message to rose and applying command `/id` in reply to that message
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002038942522"))
 #your id of telegram can be found by https://t.me/MissRose_bot with '/id' command
 OWNER_ID = int(os.environ.get("OWNER_ID", "1345506970"))
 #port set to default 8080
-PORT = os.environ.get("PORT", "6799")
+PORT = os.environ.get("PORT", "6800")
 #your database url mongodb only You can use mongo atlas free cloud database
 DB_URL = os.environ.get("DB_URL", "mongodb+srv://trisun62767:Royal123@cluster0.g5ahoeq.mongodb.net")
 #your database name
@@ -93,9 +93,9 @@ PRICE1 = os.environ.get("PRICE1", "49")
 #1 Month
 PRICE2 = os.environ.get("PRICE2", "149")
 #3 Month
-PRICE3 = os.environ.get("PRICE3", "249")
+PRICE3 = os.environ.get("PRICE3", "299")
 #6 Month
-PRICE4 = os.environ.get("PRICE4", "349")
+PRICE4 = os.environ.get("PRICE4", "399")
 #1 Year
 PRICE5 = os.environ.get("PRICE5", "599")
 
