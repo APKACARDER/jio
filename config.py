@@ -11,7 +11,7 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 #force user to join your backup channel leave 0 if you don't need.
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001690249798"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002165145116"))
 FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002247825193"))
 
 if FORCE_SUB_CHANNEL > FORCE_SUB_CHANNEL2:
@@ -31,11 +31,11 @@ APP_ID = int(os.environ.get("APP_ID", "21346742"))
 #your api hash from https://my.telegram.org/apps
 API_HASH = os.environ.get("API_HASH", "571dd0607522052217b398aa3cd860d8")
 #your channel_id from https://t.me/MissRose_bot by forwarding dummy message to rose and applying command `/id` in reply to that message
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002005073534"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002165145116"))
 #your id of telegram can be found by https://t.me/MissRose_bot with '/id' command
 OWNER_ID = int(os.environ.get("OWNER_ID", "1345506970"))
 #port set to default 8080
-PORT = os.environ.get("PORT", "6805")
+PORT = os.environ.get("PORT", "6807")
 #your database url mongodb only You can use mongo atlas free cloud database
 DB_URL = os.environ.get("DB_URL", "mongodb+srv://dextin:zaxscd123@leakedjalwa.9yauwbt.mongodb.net/?retryWrites=true&w=majority&appName=LeakedJalwa")
 #your database name
