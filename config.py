@@ -64,7 +64,7 @@ USE_SHORTLINK = True if os.environ.get('USE_SHORTLINK', "TRUE") == "TRUE" else F
 SHORTLINK_API_URL = os.environ.get("SHORTLINK_API_URL", "inshorturl.com")
 # SHORTLINK_API_KEY = os.environ.get("SHORTLINK_API_KEY", "971a7eef7f38784d7cb5accdc2a4ad044c87e25d")
 #use this key if not working ☠️ (jokin!!)
-SHORTLINK_API_KEY = os.environ.get("SHORTLINK_API_KEY", "1c97583b9a15f5af9134df1c5fdd882e8059ebcd")
+SHORTLINK_API_KEY = os.environ.get("SHORTLINK_API_KEY", "4105912bd80189b6793622ec776841a3f01b645d")
 #add your custom time in secs for shortlink expiration.
 # 24hr = 86400
 # 12hr = 43200
